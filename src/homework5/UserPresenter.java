@@ -3,7 +3,7 @@ package homework5;
 import java.util.Map;
 import java.util.Scanner;
 
-public class UserPresenter {
+public class UserPresenter implements Creatable, Changable, Enterable, Showable{
     private User user;
     private UserView view;
     Scanner scanner = new Scanner(System.in);

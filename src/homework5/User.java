@@ -1,6 +1,6 @@
 package homework5;
 
-public class User {
+public class User implements Printable{
     private String name;
     private String login;
     private String password;
